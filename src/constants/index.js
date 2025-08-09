@@ -120,17 +120,22 @@ const socials = [
  {
 	name: "Instagram",
 	icon: "/images/insta.png",
-	url: "#",
+	url: "https://www.instagram.com/",
  },
  {
 	name: "X (Twitter)",
 	icon: "/images/x.png",
-	url: "#",
+	url: "https://x.com/Dev_Chatterjee_",
  },
  {
-	name: "Facebook",
-	icon: "/images/fb.png",
-	url: "#",
+	name: "LinkedIn",
+	icon: "/images/linkedin.png",
+	url: "https://www.linkedin.com/in/debanshu-chatterjee-61a121265/",
+ },
+  {
+	name: "Github",
+	icon: "/images/github.png",
+	url: "https://github.com/Dev7478",
  },
 ];
 
