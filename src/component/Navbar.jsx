@@ -16,14 +16,14 @@ const Navbar = () => {
   return (
     <nav>
       <div>
-        <a href="#home" className='flex items-center gap-2 ml-15'>
+        <a href="#hero" className='flex items-center gap-2 '>
             <img src="/images/logo.png" alt="Logo" className='w-10 h-9' />
           <p>UDrink</p>
         </a>
-        <ul className='flex items-center gap-10 mr-15'>
+        <ul className='flex items-center gap-10 '>
             {navLinks.map((Link) => (
                 <li key={Link.id}>
-                    <a href={`#${Link.href}`} className='hover:text-[#FFC700]'>{Link.title}</a>
+                    <a href={`#${Link.id}`} className='hover:text-[#FFC700]'>{Link.title}</a>
                 </li>
             ))}
         </ul>
